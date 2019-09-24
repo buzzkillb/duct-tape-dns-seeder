@@ -5,6 +5,10 @@ cloudflare.cfg  (update your email and api key after moving to ~/.cloudflare)
 mkdir ~/.cloudflare
 cp cloudflare.cfg.example ~/.cloudflare/cloudflare.cfg
 ```
+make the files executable  
+```
+chmod +x jq.sh seed.sh delete.py
+```
 
 crontab -e
 ```
