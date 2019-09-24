@@ -1,2 +1,2 @@
 #!/bin/sh
-jq '.[] | .addr' -r /root/cf-seeder/peer.json > /root/cf-seeder/peers.txt
+jq '.[] | .addr' -r /root/duct-tape-dns-seeder/peer.json > /root/duct-tape-dns-seeder/peers.txt
