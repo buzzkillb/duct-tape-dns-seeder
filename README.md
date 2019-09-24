@@ -1,5 +1,13 @@
 # duct-tape-dns-seeder  
 
+## Requirements
+```
+coin daemon (denariusd)
+python-cloudflare
+cloudflare acount
+name hosting service that can point to cloudflare
+```
+
 ### install python cloudflare  
 ```
 sudo apt install python-pip
