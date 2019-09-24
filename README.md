@@ -1,4 +1,10 @@
-# duct-tape-dns-seeder
+# duct-tape-dns-seeder  
+
+cloudflare.cfg  (update your email and api key after moving to ~/.cloudflare)
+```
+mkdir ~/.cloudflare
+cp cloudflare.cfg.example ~/.cloudflare/cloudflare.cfg
+```
 
 crontab -e
 ```
