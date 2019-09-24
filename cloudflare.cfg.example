@@ -1,0 +1,5 @@
+[CloudFlare]
+email = email@email.com
+token = <API KEY>
+certtoken = v1.0-...
+extras =
