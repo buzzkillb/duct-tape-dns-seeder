@@ -26,6 +26,11 @@ cp cloudflare.cfg.example ~/.cloudflare/cloudflare.cfg
 cd ~/duct-tape-dns-seeder
 chmod +x jq.sh seed.sh delete.py
 ```
+### edit seed.sh
+```
+name="bseed" (name of seeder address)
+/zones/:denarius.guide/dns_records (domain name)
+```
 
 ### crontab -e
 ```
